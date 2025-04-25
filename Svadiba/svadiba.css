@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "PT Sans";
+}
+body{
+    overflow-y: hidden;
+}
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-y: scroll;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:120px;
+}
+.hapka{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_text{
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+.logo{
+    width: 100px;
+}
+.logo_hrift{
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    padding-left: 5%;
+    width: 300px;
+}
+.text-hapka{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    padding-right: 3%;
+}
+.txt-hapka{
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    display: flex;
+}
+.glav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    gap:40px;
+}
+.delam-tt{
+    padding-right: 53%;
+}
+.delam{
+    font-size: 40px;
+    letter-spacing: 0.04em;
+}
+.bloc-2{
+    width: 1494px;
+    height: 984px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.opisuhka{
+    font-size: 26px;
+    letter-spacing: 0.04em;
+}
+.opisuhka-2{
+  font-size: 26px;
+  letter-spacing: 0.04em;
+}
+.cartocki{
+    width: 1494px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.cartocka-opish{
+    width: 260px;
+    height: 360px;
+    background-color: rgb(185, 202, 248);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menhe-poiska{
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.bloc-3{
+    width: 1494px;
+    height: 2164px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cartochka-yslug{
+    width: 1494px;
+    height: 444px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cartochka-yslug-2{
+    width: 1494px;
+    height: 444px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.opiska-cartbloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.hhahah{
+    font-size: 32px;
+    letter-spacing: 0.04em;
+}
+.bloc-batton{
+    width: 360px;
+    height: 60px;
+    background-color: rgb(185, 202, 248);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.bloc-4{
+    width: 1494px;
+    height: 679px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bloc-5 {
+    max-width: 1494px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delam {
+  font-size: 32px;
+  margin-bottom: 40px;
+  }
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  }
+.card {
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.name {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+  min-width: 100%;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.dots div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.dots div.active {
+  background-color: rgb(185, 202, 248);
+}
+.bloc-6{
+  width: 1400px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.foton{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.zapis {
+  width: 600px;
+  height: 650px;
+  background-color: rgb(185, 202, 248);
+  border-radius: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zapis form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text-block {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+}
+.text-block p {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 0;
+}
+.input-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:15px;
+  width: 80%;
+}
+.zapis input {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: box-shadow 0.3s ease;
+}
+.zapis input:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(81, 103, 255, 0.6);
+}
+.button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.zapis button {
+  width: 300px;
+  padding: 12px;
+  background: linear-gradient(135deg, #5c6bc0, #3949ab);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.zapis button:hover {
+  background: linear-gradient(135deg, #3f51b5, #1a237e);
+  transform: translateY(-2px);
+}
+.succes{
+  font-size: 25px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  margin-top: 30px;
+}
+.disp{
+  display: none;
+}
+
+/* Мобильные стили для iPhone 14 Pro Max и аналогичных устройств */
+@media only screen and (max-width: 430px) {
+  body {
+      overflow-y: auto;
+  }
+  .full {
+      gap: 60px;
+      padding: 0 15px;
+  }
+  .hapka {
+      height: auto;
+      flex-direction: column;
+      padding: 15px 0;
+  }
+  .logo_text {
+      padding-left: 0;
+      flex-direction: column;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+  }
+  .logo {
+      width: 80px;
+  }
+  .logo_hrift {
+      font-size: 24px;
+      padding-left: 0;
+      width: auto;
+      margin-top: 10px;
+  }
+  .text-hapka {
+      width: 100%;
+      padding: 15px 0 0;
+      justify-content: space-around;
+  }
+  .txt-hapka {
+      font-size: 18px;
+  }
+  .glav {
+      padding-top: 30px;
+      gap: 20px;
+  }
+  .delam-tt {
+      padding-right: 0;
+      text-align: center;
+      width: 300px;
+  }
+  .delam {
+      font-size: 30px;
+      text-align: left;
+  }
+  .image-container img.main-image {
+    content: url('img/glavnoe_photo_mobile.png');
+  }
+  .bloc-2, .bloc-3, .bloc-4, .bloc-6 {
+      width: 100%;
+      height: auto;
+  }
+  .bloc-2 {
+      gap: 20px;
+  }
+  .opisuhka {
+      font-size: 18px;   
+  }
+  .opisuhka-2 {
+      font-size: 14px;
+  }
+  .cartocki {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      gap: 15px;
+      align-items: center;
+  }
+  .cartocka-opish {
+      width: 60%;
+      height: auto;
+      padding: 20px 10px;
+  }
+  .menhe-poiska {
+      font-size: 16px;
+  }
+  .bloc-3 {
+      gap: 40px;
+      padding: 30px 0;
+  }
+  .cartochka-yslug {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      gap: 20px;
+      display: block;  /* Преобразуем контейнер в блочный элемент */
+  }
+  .cartochka-yslug img {
+      width: 100%;
+      height: auto;
+  }
+  .cartochka-yslug-2 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+    display: block;  /* Преобразуем контейнер в блочный элемент */
+  }
+  .cartochka-yslug-2 img {
+    width: 100%;
+    height: auto;
+  }
+  .opiska-cartbloc {
+      gap: 15px;
+  }
+  .hhahah {
+      font-size: 24px;
+  }
+  .bloc-batton {
+      width: 60%;
+  }
+  .bloc-4 {
+      flex-direction: column;
+      gap: 30px;
+  }
+  .bloc-4 img {
+      width: 80%;
+  }
+  .bloc-5 {
+      padding: 30px 0;
+  }
+  .portfolio {
+      flex-direction: column;
+      align-items: center;
+  }
+  .card {
+      width: 90%;
+      min-width: auto;
+  }
+  .foton {
+      flex-direction: column;
+      gap: 300px;
+  }
+  .zapis {
+      width: 90%;
+      height: auto;
+      padding: 30px 0;
+  }
+  .zapis form {
+      gap: 15px;
+  }
+  .text-block p {
+      font-size: 16px;
+  }
+  .input-block {
+      width: 75%;
+  }
+  .zapis button {
+      width: 90%;
+  }
+  .succes {
+      font-size: 18px;
+  }
+  /* Скрыть второе изображение в форме на мобильных */
+  .foton img:last-child {
+      display: none;
+  }
+  /* Адаптация карусели */
+  .carousel-track {
+      flex-direction: row;
+  }
+  .carousel-track img {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-item {
+    min-width: 100%;
+    flex-shrink: 0;
+  }
+  body {
+    overflow-y: auto;
+  }
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-y: auto;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+  #mobile-text p {
+    display: inline-block;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    width: 360px;
+    display: flex; 
+  }
+  /* Объединяем все параграфы в один блок */
+  #mobile-text {
+    display: block;
+    font-size: 16px; /* Размер шрифта на мобильных */
+    line-height: 1.5; /* Межстрочный интервал для лучшего восприятия текста */
+  }
+  .button-wrapper {
+    width: 50%;
+  }
+  .bloc-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+    font-size: 20px;
+  }
+  /* Состояние при наведении */
+  .button:hover {
+    background-color: #ffffff;
+  }
+  /* Убираем синий фон при нажатии и фокусе */
+  .button:focus, .button:active {
+    outline: none;
+    background-color: #ffffff; /* Вернуть оригинальный цвет */
+  }
+  /* Убираем синий цвет при касании в мобильных браузерах */
+  .button:active {
+    -webkit-tap-highlight-color: transparent; /* Убирает синий фон */
+  }
+  /* Для всех браузеров */
+  .button:focus {
+    outline: none; /* Убираем стандартное выделение */
+  }
+  
+}
